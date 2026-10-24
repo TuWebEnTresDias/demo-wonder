@@ -166,7 +166,7 @@
             const whatsappUrl =
                 'https://wa.me/5493585613984?text=' + encodeURIComponent(text);
 
-            window.open(whatsappUrl, '_blank', 'noopener');
+            window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
         });
     }
 
